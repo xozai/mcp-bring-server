@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mcp-bring-server"
+version = "0.1.0"
+description = "MCP server for the Bring! shopping list app"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=2.0",
+    "httpx>=0.27",
+]
+
+[project.scripts]
+bring-mcp = "bring_mcp.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["bring_mcp"]

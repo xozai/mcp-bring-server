@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "bring": {
+      "command": "uv",
+      "args": ["run", "--directory", "${CLAUDE_PLUGIN_ROOT}", "bring-mcp"],
+      "env": {
+        "BRING_EMAIL": "${BRING_EMAIL}",
+        "BRING_PASSWORD": "${BRING_PASSWORD}"
+      }
+    }
+  }
+}

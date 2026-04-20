@@ -1,0 +1,9 @@
+{
+  "name": "bring",
+  "description": "Bring! shopping list integration. View lists, add and remove items, check off purchases, and search the Bring! catalog — all without leaving Claude.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Jose Leos"
+  },
+  "keywords": ["bring", "shopping", "groceries", "list"]
+}
