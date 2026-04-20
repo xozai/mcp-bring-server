@@ -1,5 +1,7 @@
 # mcp-bring-server
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 MCP server that connects Claude to the [Bring!](https://getbring.com) shopping list app.
 
 ## Tools
@@ -59,3 +61,11 @@ Add to your `~/.claude/settings.json` under `mcpServers`:
 - Authentication is lazy: the server authenticates on the first tool call and auto-refreshes the bearer token before expiry.
 - The Bring! API is community-documented and unofficial; endpoint behavior may change.
 - `get_catalog_items` fetches the full locale catalog and filters client-side. Pass `locale` (e.g. `"de-DE"`) matching your Bring! account's language for best results.
+
+## Disclaimer
+
+This project is not affiliated with or endorsed by Bring! Labs AG. It uses the community-documented Bring! REST API and is provided as-is for personal use.
+
+## License
+
+[MIT](LICENSE) © Jose Leos
